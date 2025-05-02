@@ -10,7 +10,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "headers": {"cache-control": "s-maxage=1000"},
+      "headers": {"Vercel-CDN-Cache-Control": "s-maxage=1000"},
       "dest": "main.py"
     }
   ]
