@@ -10,6 +10,7 @@
   "routes": [
     {
       "src": "/(.*)",
+      "headers": {"cache-control": "s-maxage=1000"},
       "dest": "main.py"
     }
   ]
