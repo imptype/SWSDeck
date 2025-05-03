@@ -1,2 +1,4 @@
 starlette==0.46.2
 uvicorn==0.34.2
+pillow==11.2.1
+numpy==2.2.5
